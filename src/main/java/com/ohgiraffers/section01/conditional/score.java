@@ -11,6 +11,7 @@ public class score {
         int score = sc.nextInt();
         if (score>=0 && score <=100)
 
+
             switch (score/10){
                 case 10 :
                 case 9 :
