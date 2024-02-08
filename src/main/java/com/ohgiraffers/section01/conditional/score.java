@@ -34,5 +34,6 @@ public class score {
                     System.out.println("가");
                     break;
               }
+
           }
         }
