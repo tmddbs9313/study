@@ -5,8 +5,26 @@ import java.util.Scanner;
 public class Question {
 
     /* 1부터 10까지의 숫자를 출력하는 프로그램 */
-    public void Q_1() {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        System.out.print("정수를 입력해주세요: ");
+        int num =sc.nextInt();
+        int i;
+
+        for ( i =1; i<11; i++){
+
+            if (i % 2 == 0){
+                System.out.println("짝수");
+            }else if  (i% 2 == 0){
+                System.out.println("홀수");
+            }else {
+                System.out.println("1~10사이 출력하셍");
+            }
+            break;
+        }
+    }
+
 //
 //        for (int i = 1; i <= 10; i++) {
 //            System.out.println(i);
@@ -65,48 +83,21 @@ public class Question {
 //        System.out.println();
 //    }
 
-
-        /* 별 만들기 게임
-         *   *
-         *   **
-         *   ***
-         *   ****
-         *   *****
-         *   이런 식으로 행이 늘어날 때 별도 들어나는 식을 만들어보자
-         *
-         *  */
-       int i=0;
-       int j=0;
-
-        for (i = 1; i <= 6; i++) {
-            for(j=0; j<=1; j++)
-            System.out.println("*");
-            }
-        System.out.println();
-
-
-
-
-            /* 별 만들기 게임
-             *      *
-             *     ***
-             *    *****
-             *   *******
-             *
-             *   이런 식으로 행이 늘어날 때 별도 들어나는 식을 만들어보자
-             *
-             *  */
-
-            /* 별 만들기 게임
-             *       *
-             *     ***
-             *    ****
-             *   *****
-             *
-             *   이런 식으로 행이 늘어날 때 별도 들어나는 식을 만들어보자
-             *
-             *  */
+//        System.out.println("정수를 입력해주세요: ");
+//        int num =sc.nextInt();
+//        int i;
+//
+//        for ( i =1; i>11; i++){
+//
+//            if (i%2 ==0){
+//                System.out.println("짝수");
+//            }else if  (i % 2 != 0){
+//                System.out.println("홀수");
+//            }else {
+//                System.out.println("1~10사이 출력하셍");
+//            }
+//        }
 
         }
-    }
+
 
